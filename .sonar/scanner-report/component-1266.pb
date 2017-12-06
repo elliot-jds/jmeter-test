@@ -1,0 +1,1 @@
+ò	3src/jorphan/org/apache/jorphan/reflect/Functor.java 2javaX‚h

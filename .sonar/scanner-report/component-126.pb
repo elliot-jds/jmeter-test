@@ -1,0 +1,1 @@
+~8src/components/org/apache/jmeter/extractor/json/jsonpath :}

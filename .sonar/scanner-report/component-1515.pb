@@ -1,0 +1,1 @@
+ëJsrc/protocol/jms/org/apache/jmeter/protocol/jms/sampler/JMSProperties.java 2javaXøh

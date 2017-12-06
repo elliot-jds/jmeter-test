@@ -1,0 +1,1 @@
+Ÿ`src/protocol/mail/org/apache/jmeter/protocol/smtp/sampler/protocol/TrustAllSSLSocketFactory.java 2javaX–h

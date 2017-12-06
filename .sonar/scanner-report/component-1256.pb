@@ -1,0 +1,1 @@
+è	=src/jorphan/org/apache/jorphan/logging/Slf4jLogkitLogger.java 2javaX¥h

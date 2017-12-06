@@ -1,0 +1,1 @@
+þ:src/examples/org/apache/jmeter/examples/testbeans/example2 :ýÿ

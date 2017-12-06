@@ -1,0 +1,1 @@
+˜=src/protocol/mail/org/apache/jmeter/protocol/smtp/sampler/gui :—™š

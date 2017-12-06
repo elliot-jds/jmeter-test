@@ -1,0 +1,1 @@
+­_src/protocol/mongodb/org/apache/jmeter/protocol/mongodb/sampler/MongoScriptSamplerBeanInfo.java 2javaXKh

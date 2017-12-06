@@ -1,0 +1,1 @@
+‡	Psrc/examples/org/apache/jmeter/examples/testbeans/example3/Example3BeanInfo.java 2javaX:h

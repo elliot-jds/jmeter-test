@@ -1,0 +1,1 @@
+†	:src/examples/org/apache/jmeter/examples/testbeans/example3 :„	‡	

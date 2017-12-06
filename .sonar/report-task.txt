@@ -1,0 +1,7 @@
+organization=elliot_jds-bitbucket
+projectKey=org.apache.jmeter:JMeter
+serverUrl=https://sonarcloud.io
+serverVersion=6.7.0.33301
+dashboardUrl=https://sonarcloud.io/dashboard/index/org.apache.jmeter:JMeter
+ceTaskId=AWAqWR7cE5-t8Obqzpz-
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWAqWR7cE5-t8Obqzpz-

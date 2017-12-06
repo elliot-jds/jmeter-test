@@ -1,0 +1,1 @@
+æ	:src/jorphan/org/apache/jorphan/logging/LoggingManager.java 2javaXæh

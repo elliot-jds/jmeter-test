@@ -1,0 +1,1 @@
+=src/components/org/apache/jmeter/assertions/XMLAssertion.java 2javaXch

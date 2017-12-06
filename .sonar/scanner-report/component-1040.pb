@@ -1,0 +1,1 @@
+êCsrc/core/org/apache/jmeter/testelement/property/DoubleProperty.java 2javaXèh
