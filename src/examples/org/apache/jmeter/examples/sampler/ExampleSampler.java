@@ -122,6 +122,12 @@ public class ExampleSampler extends AbstractSampler {
         String tl = getTitle();
         String tn = Thread.currentThread().getName();
         String th = this.toString();
+        
         log.debug(tn + " (" + classCount.get() + ") " + tl + " " + s + " " + th);
+    }
+    
+    private void sonarQubeTestMethod()
+    {
+    	System.out.println("Foobar! Introduced SonarQube code-smell, will suggest using a logger");
     }
 }
