@@ -7,7 +7,8 @@ printable_docs/
 reports/
 site/
 target/
-.sonar/
+/.sonar/*
+.sonar/*
 
 !bin/report-template/**/dist
 
