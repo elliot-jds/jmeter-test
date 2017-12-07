@@ -1,1 +1,0 @@
-«	=src/functions/org/apache/jmeter/functions/StringFromFile.java 2javaXèh
