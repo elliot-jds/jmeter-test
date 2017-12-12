@@ -3499,7 +3499,7 @@ run JMeter unless all the JMeter jars are added.
   	<!-- Define the SonarQube project properties -->
   	<property name="sonar.projectKey" value="org.apache.jmeter:JMeter" />
   	<property name="sonar.projectName" value="JMeter" />
-  	<property name="sonar.projectVersion" value="3.3" />
+  	<property name="sonar.projectVersion" value="3.3.1" />
   	<property name="sonar.sources" value="src" />
   	<property name="sonar.java.binaries" value="build" />
 	<property name="sonar.java.libraries" value="lib/*.jar" />
