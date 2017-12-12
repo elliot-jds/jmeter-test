@@ -3494,7 +3494,7 @@ run JMeter unless all the JMeter jars are added.
   	<property name="sonar.host.url" value="https://sonarcloud.io" />
 
  	<property name="sonar.organization" value="elliot_jds-bitbucket" />
-  	<property name="sonar.login" value="037f0b3f2807fa1f3ef954b9ba52d4f1ed8caa2d" />
+  	<property name="sonar.login" value="" />
 
   	<!-- Define the SonarQube project properties -->
   	<property name="sonar.projectKey" value="org.apache.jmeter:JMeter" />
