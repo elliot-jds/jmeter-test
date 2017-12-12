@@ -8,13 +8,13 @@ pipeline {
 		stage('Build') {
                         steps {
                                 //echo '## Build!!1'
-				sh 'sudo ant'
+				sh 'ant'
                         }
                 }
 		stage('Scan with SonarScanner')
 		{
 			steps {
-				sh 'sudo ant sonar -v'
+				sh 'ant sonar -v'
 			}
 		}
 		//stage('SonarQube analysis') {
