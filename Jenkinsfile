@@ -23,7 +23,7 @@ pipeline {
 					// requires SonarQube Scanner 2.8+
 					def scannerHome = tool 'sonar-scanner';
 					withSonarQubeEnv('SonarCloud') {
-						sh "${scannerHome}/sonar-scanner"
+						sh "sonar-scanner -X"
 					}	
 				}
 			}	
