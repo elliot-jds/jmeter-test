@@ -2246,6 +2246,7 @@ run JMeter unless all the JMeter jars are added.
       <fileset dir="${dest.printable_docs}"/>
       <fileset dir="${dist.dir}"/>
     </delete>
+    <delete dir=".sonar/" />
   </target>
 
   <target name="clean-dist" description="Clean up dist directory.">

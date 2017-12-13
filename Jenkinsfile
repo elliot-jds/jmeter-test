@@ -8,7 +8,7 @@ pipeline {
 		stage('Build') {
                         steps {
                                 //echo '## Build!!1'
-				sh 'sudo ant'
+				sh 'sudo ant clean'
                         }
                 }
 		//stage('Scan with SonarScanner')
