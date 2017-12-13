@@ -125,9 +125,4 @@ public class ExampleSampler extends AbstractSampler {
         
         log.debug(tn + " (" + classCount.get() + ") " + tl + " " + s + " " + th);
     }
-    
-    private void sonarQubeTestMethod()
-    {
-    	System.out.println("Foobar! Introduced SonarQube code-smell, will suggest using a logger");
-    }
 }
