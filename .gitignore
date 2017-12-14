@@ -10,6 +10,9 @@ target/
 /.sonar/*
 .sonar/**
 .sonar/
+docs/*
+docts/
+docts/**
 
 !bin/report-template/**/dist
 

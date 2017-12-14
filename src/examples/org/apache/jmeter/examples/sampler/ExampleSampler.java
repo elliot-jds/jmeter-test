@@ -125,4 +125,6 @@ public class ExampleSampler extends AbstractSampler {
         
         log.debug(tn + " (" + classCount.get() + ") " + tl + " " + s + " " + th);
     }
+
+    // Test comment, to see if this updates the source file in SonarCloud (and for which branch...)
 }
