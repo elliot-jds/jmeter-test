@@ -2,7 +2,7 @@
 node {
   stage('Build') {
 	//echo '## Build!'
-	withAnt(installation: 'ant-install') {
+	withAnt(installation: 'ant-installation') {
         //dir("scoring") {
         if (isUnix()) {
 	   sh "ant download_jars"
