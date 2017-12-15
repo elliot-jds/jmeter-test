@@ -6,7 +6,7 @@ node {
   stage('SonarQube analysis') {
 
 	// requires SonarQube Scanner 2.8+
-        def scannerHome = tool 'SonarQube Scanner 2.8'; //'sonar-scanner';
+        def scannerHome = tool 'sonar-scanner';
         withSonarQubeEnv('SonarCloud') {
 		echo "${scannerHome}"
                 //sh "sonar-scanner -X -Dsonar.java.binaries=build/core/** -Dsonar.branch.name=topic_branchscan"
