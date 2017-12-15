@@ -6,7 +6,7 @@ node {
         //dir("scoring") {
         if (isUnix()) {
 	   	sh "pwd"
-		sh "ll"
+		sh "l"
 		sh "ant download_jars"
            	sh "ant clean install"
         } 
