@@ -5,8 +5,10 @@ node {
 	withAnt(installation: 'ant-installation') {
         //dir("scoring") {
         if (isUnix()) {
-	   sh "ant download_jars"
-           sh "ant clean install"
+	   	sh "pwd"
+		sh "ll"
+		sh "ant download_jars"
+           	sh "ant clean install"
         } 
       //}
     }
