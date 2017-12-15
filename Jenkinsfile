@@ -1,7 +1,15 @@
 
 node {
   stage('Build') {
-	echo '## Build!'
+	//echo '## Build!'
+	withAnt(installation: 'ant-install') {
+        //dir("scoring") {
+        if (isUnix()) {
+	   sh "ant download_jars"
+           sh "ant clean install"
+        } 
+      //}
+    }
   }
   stage('SonarQube analysis') {
 
