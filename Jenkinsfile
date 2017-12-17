@@ -4,10 +4,9 @@ node {
 	//echo '## Build!'
 	withAnt(installation: 'ant-installation') {
         //dir("scoring") {
-        if (isUnix()) {
+		sh "pwd"
 		sh "ant download_jars"
-           	sh "ant clean install"
-        } 
+        	sh "ant clean install"
       //}
     }
   }
