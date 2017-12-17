@@ -4,13 +4,11 @@ node {
     git 'https://elliot_jds@bitbucket.org/elliot_jds/jmeter-test.git'
   }
   stage('Build') {
-	//echo '## Build!'
 	withAnt(installation: 'ant-installation') {
-        //dir("scoring") {
-		//sh "ant download_jars"
-        	//sh "ant clean install"
-		sh "ant -v"
-      //}
+	//sh "ant download_jars"
+        //sh "ant clean install"
+	//sh "ant -v"
+	sh "## ECS: ant invocation commented out because absence of JavaFX lib causing build error"
     }
   }
   stage('SonarQube analysis') {
