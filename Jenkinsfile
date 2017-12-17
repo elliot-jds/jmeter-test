@@ -9,6 +9,7 @@ node {
         //dir("scoring") {
 		//sh "ant download_jars"
         	//sh "ant clean install"
+		sh "ant -v"
       //}
     }
   }
