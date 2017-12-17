@@ -1,10 +1,12 @@
 
 node {
+  stage('SCM') {
+    git 'https://elliot_jds@bitbucket.org/elliot_jds/jmeter-test.git'
+  }
   stage('Build') {
 	//echo '## Build!'
 	withAnt(installation: 'ant-installation') {
         //dir("scoring") {
-		sh "pwd"
 		sh "ant download_jars"
         	sh "ant clean install"
       //}
