@@ -1,5 +1,5 @@
 
-node ('maven') {
+node {
   stage('SCM') {
     git 'https://elliot_jds@bitbucket.org/elliot_jds/jmeter-test.git'
   }
