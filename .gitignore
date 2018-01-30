@@ -1,7 +1,7 @@
 #...................,
 # Directory trees to ignore
 backups/
-build/
+# build/
 dist/
 local/
 printable_docs/
