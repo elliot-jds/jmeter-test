@@ -12,7 +12,7 @@ node {
 	// Requires SonarQube Scanner 2.8+
         def scannerHome = tool 'sonar-scanner';
 	withSonarQubeEnv('SonarCloud') {
-		sh "${scannerHome}/bin/sonar-scanner -Dsonar.java.binaries=build/core/** -Dsonar.projectKey=jmeter-test-2 -Dsonar.projectName=jmeter-test-2 -Dsonar.projectVersion=3.3.1 -Dsonar.sources=. -Dsonar.organization=elliot_jds-bitbucket"
+		sh "${scannerHome}/bin/sonar-scanner -Dsonar.java.binaries=build/core/** -Dsonar.projectKey=jmeter-test-2 -Dsonar.projectName=jmeter-test-2 -Dsonar.projectVersion=3.3.1 -Dsonar.sources=. -Dsonar.organization=elliot_jds-bitbucket" | tee sonar-scanner.log
 		}
 	}
 }
